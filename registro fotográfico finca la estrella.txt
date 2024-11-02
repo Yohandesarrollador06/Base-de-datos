@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Imágenes</title>
+    <style>
+        body {
+            background-color: #F3ECE3;
+            color: #3E312E;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: bold;
+            color: #3E312E;
+            text-align: center;
+            margin-bottom: 25px;
+            padding: 10px 20px;
+            border-bottom: 3px solid #A68A64;
+        }
+
+        #contenedor {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            max-width: 1000px;
+        }
+
+        .fila {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        details {
+            background-color: #A68A64;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+            width: 180px;
+            padding: 10px;
+            transition: transform 0.2s ease, background-color 0.3s ease;
+            text-align: center;
+            color: #F3ECE3;
+        }
+
+        details:hover {
+            background-color: #8C7356;
+            transform: scale(1.05);
+        }
+
+        summary {
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            outline: none;
+        }
+
+        img {
+            width: 150px;
+            height: 100px;
+            margin-top: 5px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+            border: 2px solid #3E312E;
+        }
+
+        img:active {
+            animation: color 3s linear infinite;
+        }
+
+        p {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        @keyframes color {
+            0% { border-top-color: green; border-right-color: blue; border-bottom-color: purple; border-left-color: red; }
+            25% { border-top-color: red; border-right-color: green; border-bottom-color: blue; border-left-color: purple; }
+            50% { border-top-color: purple; border-right-color: red; border-bottom-color: green; border-left-color: blue; }
+            75% { border-top-color: blue; border-right-color: purple; border-bottom-color: red; border-left-color: green; }
+            100% { border-top-color: green; border-right-color: blue; border-bottom-color: purple; border-left-color: red; }
+        }
+    </style>
+</head>
+<body>
+    <h1>Registro Fotográfico</h1>
+    <div id="contenedor">
+        <div class="fila">
+            <details>
+                <summary>
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwGWSEXE_PzIsKNiOTYcVVIjt7CjD1txbjExKznfrjbDeUKQSh3q0-aOno8PZvqE3e1lP2-lMltO5oVmlOaNULfWHwKH8jHhFcyxwSxJd8rCLIjky-gcE98VNib42tenIsb1EKQKQC7izUr_2yIhKBG4qdY_tGPH5KXDnZTQ4eNVwhM7bJP4tzqMXFx7eK/s1280/la%20estrella1.jpg" alt="Floración del café">
+                </summary>
+                <p>En esta imagen observamos el proceso de floración del café.</p>
+            </details>
+
+            <details>
+                <summary>
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyJVO9Lx6OgeNxuJgqPTY9yM_EgyFYZGOQOPRT6wZuDT6ia1TceL-3e8OlMD88F3mdp8Ydvz8fvxGQhdmnTjy6kzZu5xrBXtegmamLbveciz3roBdicDgnaTstxMMuHehRBVX3DZhg1ElVyLuppphh6cjNAaHYlX1qRltc1tTnN9nFiX5atdo0HpONHihg/s320/la%20estrella2.jpg" alt="Café antes de la recolección">
+                </summary>
+                <p>Aquí observamos el café meses antes de estar listo para recolectar.</p>
+            </details>
+        </div>
+        
+        <div class="fila">
+            <details>
+                <summary>
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeexPR29eBhT-3KF816nIdzotWLYb37Kda3FIRGLdOjITJ05jCimh0DNtnZpjKb6mUq7m9H0tfq3NrJW6Yi7uaKcn3jq61ugrQLldozQQGN_3Hcu3TmUtxndjSKXwBiAOKT8OK9MIE6iw1yV8I5KRtvBJDzY8m_f3ezaEeynnC6AhWcjgWMaCtBg2qPXDs/s320/la%20estrella3.jpg" alt="Listo para la recolección">
+                </summary>
+                <p>En este punto ya está listo para el proceso de recolección.</p>
+            </details>
+
+            <details>
+                <summary>
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj94Nr9Ogy-I9zwfhIXdHp3m1by76mX8PV_fMzYRqAnhZ2A1kiJ-pptaDGjO_DNZLg8EgA_yMml56yLekFOJosa-zXKg0YvNXDK4o6dcj8ADFSNfmTxSTkFuesAqZMPidm6F6PXbmeVHy4x4YbUAszld6HOWjVhHi3QayVsxXSAmAUoLzIRxEwzBwR60dU5/s1280/la%20estrella4.jpg.jpg" alt="Secado del café">
+                </summary>
+                <p>En este punto observamos el proceso de secado.</p>
+            </details>
+        </div>
+
+        <div class="fila">
+            <details>
+                <summary>
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyxUDmldrAagKhpu6uMzR_0tfXlLSXCoD1JSPIH7se2tGKpAx_DLhG2ka-j95wH3lG0iG0zHhReFn1k-7mKXOLBWrHjGy9Dd8j5-Mf7zw_4V3Kvog9RhC4mnoDryTH_SIGeSNwEhleSIbc4wZZRzNm-syvKMRjUZPLN1GwBje7_xUhYcxWcSyji2ZdEKo_/s1599/la%20estrella5.jpg" alt="Café listo para proceso">
+                </summary>
+                <p>Aquí observamos el café listo para sus posteriores procesos.</p>
+            </details>
+
+            <details>
+                <summary>
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirBiy0JwlProtF7jG5j-uLhvKdtDZBybsAQcgN0KiroEhlcrngbjUC92fBks2NbDTwGhmruW-4ymZY-_tgvEZwJzCHhv-c0KSeZWxWXsNUJnsgVBAad6M3z7CNDtif-_VPnTFqgIGR3rIFMz2rUO3XRewejXlT6u-sTsvkd9acwWACHYCEtp-8h-ZJ1aEe/s1600/la%20estrella6.jpg" alt="Proceso de empacado">
+                </summary>
+                <p>En este punto se está finalizando el proceso de empacado.</p>
+            </details>
+        </div>
+
+        <div class="fila">
+            <details>
+                    <summary>
+                            <img height="150px" id="logo" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7whMRwjCB-0cEFKFNlEqgCXEnpAou3Pyc2Mw0w3DL4sakT2xMTD7akSSOwlJ9So7o96Q7JsmwWQHzfBuXJaxsOOM2Ieo2zQyRBTouSQvCZkuxBH5rvRi-5-BrWGnAM88HceViM3eqe-9-FL9vgbRKVHcludtWr5Y_OHV9K80lXIbzV9klMyPQysQcT5Gs/s1599/la%20estrella7.jpg" width="150px" />
+                    </summary>
+                    <p>Y asi queria ya finalizado el proceso y esta listo para la venta.</p>
+            </details>
+        </div>
+    </body>
+</html>
