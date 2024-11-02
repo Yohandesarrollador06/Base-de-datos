@@ -85,7 +85,7 @@
 <body>
     <h1>¿Qué te interesa de esta finca?</h1>
 
-    <a href="https://registrofotograficolaestrella.blogspot.com/2024/09/imagenes-body-background-color-887575.html">
+    <a href="registro_fotografico_finca_la_estrella.html">
         <button class="boton">Registro fotográfico</button>
     </a>
     <a href="https://videosdisponiblesparalaestrella.blogspot.com/2024/09/blog-post.html">
