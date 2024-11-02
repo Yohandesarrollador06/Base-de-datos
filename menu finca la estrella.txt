@@ -88,7 +88,7 @@
     <a href="registro_fotografico_finca_la_estrella.html">
         <button class="boton">Registro fotográfico</button>
     </a>
-    <a href="https://videosdisponiblesparalaestrella.blogspot.com/2024/09/blog-post.html">
+    <a href="videos_finca_la_estrella.html">
         <button class="boton">Videos</button>
     </a>
     <a href="https://trazabilidadlaestrella.blogspot.com/2024/09/body-background-color-887575-display.html">
