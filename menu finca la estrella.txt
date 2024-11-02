@@ -91,7 +91,7 @@
     <a href="videos_finca_la_estrella.html">
         <button class="boton">Videos</button>
     </a>
-    <a href="https://trazabilidadlaestrella.blogspot.com/2024/09/body-background-color-887575-display.html">
+    <a href="trazabilidad_finca_la_estrella.html">
         <button class="boton">Trazabilidad</button>
     </a>
     <a href="https://realizatupedidolaestrella.blogspot.com/2024/09/blog-post.html">
